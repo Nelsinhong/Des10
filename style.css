@@ -1,0 +1,129 @@
+@charset 'UTF-8';
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+* {
+    text-align: justify;
+    /*margin: 0;
+    padding: 0;*/
+}
+main {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+header {
+    background-image: linear-gradient(to top, rgb(31,109,65), rgba(48, 170, 103, 0.692));
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+header {
+    text-shadow: 1px 1px 3px black;
+}
+header > h1 {
+    text-align: center;
+}
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+nav > a:hover {
+    text-decoration: underline;
+}
+body {
+    margin: 0px;
+    background-color: rgb(132,225,173);
+}
+main > h1 {
+    color: rgb(31,109,65);
+    font-family: android;
+}
+ header > p {
+    text-align: center;
+}
+h2 {
+    color: rgb(31,109,65);
+    font-family: android;
+}
+/*img {
+    text-decoration: none;
+    width: 100%;
+} */
+footer {
+    background-color: rgb(24,86,52);
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+article > h2 {
+    font-family: android;
+    background-image: linear-gradient(to right, rgba(132, 225, 172, 0.548), white);
+}
+#extra {
+    background-color: rgb(197,235,214);
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    margin: 0px 20px 20px 20px ;
+}
+h4 {
+    background-color: rgb(46,168,101);
+    color: white;
+    padding: 10px;
+    margin: 20px 20px 0px 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+p {
+    text-indent: 40px;
+}
+main > a {
+    color: green;
+}
+.w-100 {
+    width: 100%;
+}
+.lista1 {
+    display: inline-flex;
+    background-color: rgb(197,235,214);
+    max-width: 395px;
+    max-height: 150px;
+    margin-left: 20px;
+    position: absolute;
+}
+/*.lista2 {
+    background-color: rgb(197,235,214);
+    max-width: 395px;
+    max-height: 150px;
+    left: 395px;
+    top: -165px;
+    position: relative;
+}*/
+li {
+    list-style-type: square;
+}
+.bugcentro {
+    margin: 0 auto;
+    display: block;
+}
+.lista2 {
+    columns: 2;
+    /*display: inline-flex;
+    left: 50%; position: relative;
+    background-color:rgb(197,235,214);
+    /*display: flex;
+    justify-content: space-between;*/
+}
+video {
+    background-color: green;
+    margin: 0 auto;
+    display: block;
+    width: 560px;
+}
